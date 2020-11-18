@@ -1,17 +1,20 @@
 # welcome bot: A Probot App
 
-A GitHub App built with [probot](https://github.com/probot/probot) that celebrates new user activity within your repository.
+A GitHub App built with [probot](https://github.com/probot/probot) that
+celebrates new user activity within your repository.
 
 ## What it does
 
 Welcome new users with maintainer defined comments the first time your users:
+
 - Create a new issue
 - Open a new pull request
 - Merge their first pull request
 
 ## Getting started
 
-1. [Install the bot](https://github.com/apps/welcome) on the intended repositories. The plugin requires the following **Permissions and Events**:
+1. [Install the bot](https://github.com/apps/welcome) on the intended
+   repositories. The plugin requires the following **Permissions and Events**:
 
 - Pull requests: Read & Write
 - Issues: Read & Write
@@ -42,17 +45,24 @@ firstPRMergeComment: >
 # It is recommended to include as many gifs and emojis as possible!
 ```
 
-You can opt out of having the bot comment on first time pull requests, pull request merges, or new issues by not filling in a value for each app's respective field.
+You can opt out of having the bot comment on first time pull requests, pull
+request merges, or new issues by not filling in a value for each app's
+respective field.
 
-For some inspiration about what kind of content to include in your .github/config files, check out [Electron's Configuration](https://github.com/electron/electron/blob/master/.github/config.yml).
+For some inspiration about what kind of content to include in your
+.github/config files, check out
+[Electron's Configuration](https://github.com/electron/electron/blob/master/.github/config.yml).
 
 ## Need help?
 
 If you need help using this app, we encourage you to:
 
-- Check out the [Getting Started Guide](docs/getting-started.md) in the docs folder of this repository
-- If you can't find the answer there, open an issue in this repository and add the label `question`
+- Check out the [Getting Started Guide](docs/getting-started.md) in the docs
+  folder of this repository
+- If you can't find the answer there, open an issue in this repository and add
+  the label `question`
 
 ## Project maintainers
 
-This project is maintained by Monalisa Octocat and friends. Use of this project under the [MIT License](LICENSE.md).
+This project is maintained by Monalisa Octocat and friends. Use of this project
+under the [MIT License](LICENSE.md).
